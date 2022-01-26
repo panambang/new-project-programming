@@ -1,0 +1,3 @@
+1. Query:
+select ua.ID,ua.UserName, ub.userName as ParentUserName  from users_stockbit ua LEFT JOIN users_stockbit ub ON ub.ID=ua.Parent order by ua.ID;
+
